@@ -27,9 +27,4 @@ cd catkin_ws/
 source devel/setup.bash
 roslaunch safe_landing_planner safe_landing_planner.launch
 ```
-3. Terminal 2nd:-
-```bash
-cd catkin_ws/
-source devel/setup.bash
-roslaunch safe_landing_planner rviz.launch
-```
+safe_landing_planner.launch launches the required nodes(safe_landing_planner and waypoint_generator) along with Rviz
