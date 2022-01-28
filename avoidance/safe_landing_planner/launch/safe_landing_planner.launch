@@ -25,8 +25,7 @@
 
         <!-- Launch rqt_reconfigure -->
     <node pkg="rqt_reconfigure" type="rqt_reconfigure" output="screen" name="rqt_reconfigure" />
-
-<!--     <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find safe_landing_planner)/resource/safe_landing_planner.rviz" /> -->
+    <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find safe_landing_planner)/resource/safe_landing_planner.rviz" /> 
 
     <!-- switch off and on auto exposure of Realsense cameras, as it does not work on startup -->
     <!-- <node name="set_RS_param" pkg="safe_landing_planner" type="realsense_params.sh" /> -->
